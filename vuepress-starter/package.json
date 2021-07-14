@@ -1,0 +1,22 @@
+{
+  "name": "vuepress-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "1650243458@qq.com <1650243458@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.22"
+  },
+  "dependencies": {
+    "markdown-it": "^12.1.0"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "keywords": [],
+  "description": ""
+}
