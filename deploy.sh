@@ -1,12 +1,4 @@
 #!/usr/bin/env sh
-###
- # @Author: your name
- # @Date: 2021-07-14 14:38:00
- # @LastEditTime: 2021-07-14 14:43:57
- # @LastEditors: Please set LastEditors
- # @Description: In User Settings Edit
- # @FilePath: /vuepress-starter/deploy.sh
-### 
 
 # 确保脚本抛出遇到的错误
 set -e
@@ -28,6 +20,6 @@ git commit -m 'deploy'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:qiongqiong9191/vuepress.git main
+git push -f git@github.com:qiongqiong9191/vuepress.git main:gh-pages
 
 cd -
