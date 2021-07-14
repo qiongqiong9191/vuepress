@@ -12,7 +12,7 @@ module.exports = {
       },
     ],
   ],
-  base: "/", // 写你的仓库名称,默认值是 /,base 属性的值总是以 / 开始并以 /结束
+  base: "/vuepress", // 写你的仓库名称,默认值是 /,base 属性的值总是以 / 开始并以 /结束
   // dest: "", // VuePress 默认将文件打包在 .vuepress/dist目录下,可以通过 dest属性修改文件输出目录
   // repo: "", // 添加 github 链接
   themeConfig: {
