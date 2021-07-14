@@ -2,7 +2,7 @@
 ###
  # @Author: your name
  # @Date: 2021-07-14 14:38:00
- # @LastEditTime: 2021-07-14 14:40:17
+ # @LastEditTime: 2021-07-14 14:43:57
  # @LastEditors: Please set LastEditors
  # @Description: In User Settings Edit
  # @FilePath: /vuepress-starter/deploy.sh
@@ -28,6 +28,6 @@ git commit -m 'deploy'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:qiongqiong9191/vuepress.git master:gh-pages
+git push -f git@github.com:qiongqiong9191/vuepress.git main
 
 cd -
