@@ -18,12 +18,20 @@ module.exports = {
   themeConfig: {
     logo: "https://vuejs.org/images/logo.png", //左侧图标
     navbar: [
+      { text: "首页", link: "/" },
       { text: "快速上手", link: "/guide/" },
-      { text: "接口定义", link: "/apiword/" },
-      { text: "接口字段定义", link: "/api/" },
-      { text: "附录：错误码", link: "/error/" },
+      { text: "规范文档", link: "/frontend/standard/" },
+      { text: "框架", link: "/frontend/framework/" },
+      { text: "组件库", link: "/frontend/library/" },
     ],
+    // 为不同的页面组来显示不同的侧边栏
+    sidebar: {
+      "/guide/": [""],
+      "/frontend/standard/": [""],
+      "/frontend/framework/": [""],
+      "/frontend/library/": [""],
+    },
   },
-  sidebar: "auto", // 侧边栏配置
+  // sidebar: "auto", // 侧边栏配置
   sidebarDepth: 2,
 };
